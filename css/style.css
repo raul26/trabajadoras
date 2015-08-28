@@ -1,4 +1,38 @@
 @font-face{
-  font-family: "AntonioBold";
-  /*src: url("fonts/Antonio-Bold.woff") format("woff");*/
+  font-family: "MyriadBold";
+  src: url("fonts/MYRIADPRO-BOLDCOND.woff") format("woff");
+}
+@font-face{
+  font-family: "MyriadRegular";
+  src: url("fonts/MyriadPro-Regular.woff") format("woff");
+}
+@font-face{
+  font-family: "OswaldHeavy";
+  src: url("fonts/Oswald-Heavy.woff") format("woff");
+}
+body{
+  background-color: #6b3a5a;
+}
+#color-top{
+  width: 100%;
+  height: 200px;
+  background-color: #b6648c;
+}
+#header{
+  background-color: #8a6f8b;
+  font-size: 40px;
+  z-index: 10;
+  -webkit-transform: rotateZ(-4deg);
+  -moz-transform: rotateZ(-4deg);
+  -o-transform: rotateZ(-4deg);
+}
+#line{
+  width: 99%;
+  height: 100px;
+  background-color: #fff;
+  -webkit-transform: rotateZ(-4deg);
+  -moz-transform: rotateZ(-4deg);
+  -o-transform: rotateZ(-4deg);
+  margin-top: -3.5%;
+  z-index: -2;
 }
