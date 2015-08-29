@@ -13,26 +13,23 @@
 body{
   background-color: #6b3a5a;
 }
-#color-top{
-  width: 100%;
-  height: 200px;
-  background-color: #b6648c;
-}
 #header{
   background-color: #8a6f8b;
-  font-size: 40px;
+  font-size: 50px;
   z-index: 10;
-  -webkit-transform: rotateZ(-4deg);
-  -moz-transform: rotateZ(-4deg);
-  -o-transform: rotateZ(-4deg);
+  -webkit-transform: rotateZ(-5.5deg);
+  -moz-transform: rotateZ(-5.5deg);
+  -o-transform: rotateZ(-5.5deg);
+  width: 60%;
+  margin-left: 20%;
+  margin-top: -14%;
 }
-#line{
-  width: 99%;
-  height: 100px;
-  background-color: #fff;
-  -webkit-transform: rotateZ(-4deg);
-  -moz-transform: rotateZ(-4deg);
-  -o-transform: rotateZ(-4deg);
-  margin-top: -3.5%;
-  z-index: -2;
+.top{
+  width: 100%;
+}
+#mm img{
+  position: absolute;
+  margin-top: 0%;
+  margin-right: 0%;
+  width: 20%;
 }
