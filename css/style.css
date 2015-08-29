@@ -79,6 +79,9 @@ body{
   font-size: 25px;
   text-align: center;
 }
+.ln{
+  border-bottom: 2px solid #6b3a5a;
+}
 #next img{
   width: 38px;
   margin-left: 15%;
@@ -87,4 +90,42 @@ body{
   margin-top: 15%;
   width: 38px;
   margin-left: 15%;
+}
+#sub-menu{
+  position: absolute;
+  display: none;
+  background-color: #8a6f8b;
+  margin-top: 30%;
+  margin-left: 78%;
+  height: 200px;
+  z-index: 100;
+  -webkit-box-shadow: -15px 14px 23px -8px rgba(0,0,0,0.82);
+  -moz-box-shadow: -15px 14px 23px -8px rgba(0,0,0,0.82);
+  box-shadow: -15px 14px 23px -8px rgba(0,0,0,0.82);
+}
+#sub-menu ul{
+  padding:0;
+}
+#sub-menu ul li{
+  text-decoration:none;
+  padding-top: 14px;
+  padding-right: 15px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  display:block;
+  color:#fff;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+#next, #back:hover{
+  cursor: pointer;
+}
+#txt:hover{
+  cursor: default;
+}
+#menu:hover + #sub-menu{
+  display: block;
 }
