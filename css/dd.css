@@ -1,0 +1,13 @@
+body{
+  background-color: #d1c1d7;
+
+}
+
+#trapezoid {
+    border-bottom: 100px solid #b6648c;
+   
+    border-right: 50px solid transparent;
+    height: 0;
+     width: 65%;
+
+}
