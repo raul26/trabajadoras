@@ -21,8 +21,9 @@ body{
   -moz-transform: rotateZ(-5.5deg);
   -o-transform: rotateZ(-5.5deg);
   width: 60%;
-  margin-left: 20%;
-  margin-top: -14%;
+  margin-left: 5%;
+  margin-top: -12%;
+  color: #fff;
 }
 .top{
   width: 100%;
@@ -30,6 +31,60 @@ body{
 #mm img{
   position: absolute;
   margin-top: 0%;
-  margin-right: 0%;
+  margin-left: 80%;
   width: 20%;
+}
+.text{
+  font-size: 20px;
+  color: #fff;
+}
+#int-mt{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.logos{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+#menu{
+  position: absolute;
+  width: 50px;
+  height: 200px;
+  background-color: #42203d;
+  overflow: hidden;
+  margin-left: 96%;
+  margin-top: 30%;
+}
+#menu #next, #back{
+  width: 39px;
+  margin-left: 3%;
+}
+#menu #txt{
+  webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 20% 50%;
+  -moz-transform-origin: 20% 50%;
+  -ms-transform-origin: 20% 50%;
+  -o-transform-origin: 20% 50%;
+  transform-origin: 20% 50%;
+
+  width: 100px;
+  position: relative;
+  top: 70px;
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+#next img{
+  width: 38px;
+  margin-left: 15%;
+}
+#back img{
+  margin-top: 15%;
+  width: 38px;
+  margin-left: 15%;
 }
