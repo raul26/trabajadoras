@@ -11,3 +11,19 @@ body{
      width: 65%;
 
 }
+
+#mm2 img{
+  position: absolute;
+  margin-top: -7%;
+  margin-left: 80%;
+  width: 20%;
+}
+#mano_arriba{
+	width: 126%;
+	margin-top: 19%;
+}
+#tex_ma{
+	margin-top: 10%;
+	    font-size: 127%;
+
+}
