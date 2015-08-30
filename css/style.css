@@ -62,6 +62,7 @@
   overflow: hidden;
   margin-left: 96%;
   margin-top: 30%;
+  z-index: 10;
 }
 #menu #next, #back{
   width: 39px;
@@ -73,11 +74,11 @@
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  -webkit-transform-origin: 20% 50%;
-  -moz-transform-origin: 20% 50%;
-  -ms-transform-origin: 20% 50%;
-  -o-transform-origin: 20% 50%;
-  transform-origin: 20% 50%;
+  -webkit-transform-origin: 23px 17px;
+  -moz-transform-origin: 23px 17px;
+  -ms-transform-origin: 23px 17px;
+  -o-transform-origin: 23px 17px;
+  transform-origin: 23px 17px;
 
   width: 100px;
   position: relative;

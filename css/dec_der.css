@@ -10,3 +10,26 @@
   margin-left: 10%;
   cursor: pointer;
 }
+.m0{
+  background-color: #b6648c;
+  color: #fff;
+  font-size: 20px;
+  font-family: "MyriadRegular";
+}
+#head-m0{
+  border-bottom: 0;
+}
+.head{
+  color: #CC6699;
+  font-family: "OswaldHeavy";
+  font-size: 50px;
+  padding: 0;
+  padding-left: 5%;
+  margin-bottom: 8%;
+}
+#uno #im-1{
+  margin-left: 5%;
+}
+.img-bot{
+  margin-top: 13%;
+}
