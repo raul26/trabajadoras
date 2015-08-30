@@ -10,8 +10,16 @@
   font-family: "OswaldHeavy";
   src: url("fonts/Oswald-Heavy.woff") format("woff");
 }
-body{
+.ptext{
+  font-size: 24px;
+  font-family: "MyriadRegular";
+  color: #42203d;
+}
+#index{
   background-color: #6b3a5a;
+}
+#color{
+  background-color: #d1c1d7;
 }
 #header{
   background-color: #8a6f8b;
@@ -126,6 +134,43 @@ body{
 #txt:hover{
   cursor: default;
 }
-#menu:hover + #sub-menu{
-  display: block;
+/*#menu:hover + #sub-menu{*/
+  /*display: block;*/
+/*}*/
+
+#trapezoid {
+  border-bottom: 100px solid #b6648c;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 65%;
+  color: #fff;
+}
+.opt:hover{
+  background-color: #382B36;
+  text-decoration: none;
+}
+#sub-menu ul a{
+  text-decoration: none;
+  color: #fff;
+}
+#top-tittle{
+  padding-top: 3%;
+  font-family: "OswaldHeavy";
+  font-size: 50px;
+}
+.space{
+  margin-top: 15%;
+}
+.mar-left{
+  margin-left: 10%;
+}
+.div-sp{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #a88fb5;
+  color: #6b3a5a;
+  font-family: "MyriadBold";
+  font-size: 24px;
+  padding:2%;
 }
