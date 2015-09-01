@@ -1,16 +1,26 @@
-body{
-  background-color: #d1c1d7;
-
+.oculto{
+	display: none;
 }
 
-#trapezoid {
-    border-bottom: 100px solid #b6648c;
-   
-    border-right: 50px solid transparent;
-    height: 0;
-     width: 65%;
-
+#top-tittle2{
+margin-top: 3%;
+  font-family: "OswaldHeavy";
+  font-size: 50px;
+  color: #663366;
 }
+
+.space2{
+	margin-top: 8%;
+}
+.down{
+	margin-top: 5%;
+}
+
+
+.space_img{
+	margin-top: 3%;
+}
+
 
 #mm2 img{
   position: absolute;
@@ -18,12 +28,15 @@ body{
   margin-left: 80%;
   width: 20%;
 }
-#mano_arriba{
-	width: 126%;
-	margin-top: 19%;
-}
-#tex_ma{
+
+#im-26{
 	margin-top: 10%;
-	    font-size: 127%;
+	   
 
 }
+#im-28{
+	margin-top: 34%;
+	}
+#im-30{
+text-align: center;
+	}   
