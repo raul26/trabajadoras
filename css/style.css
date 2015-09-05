@@ -23,7 +23,7 @@
 }
 #header{
   background-color: #8a6f8b;
-  font-size: 50px;
+  font-size: 60px;
   z-index: 10;
   -webkit-transform: rotateZ(-5.5deg);
   -moz-transform: rotateZ(-5.5deg);
@@ -32,6 +32,7 @@
   margin-left: 5%;
   margin-top: -12%;
   color: #fff;
+  font-family: "OswaldHeavy";
 }
 .top{
   width: 100%;
@@ -169,6 +170,9 @@
 .mar-left{
   margin-left: 10%;
 }
+.mouse{
+  cursor: pointer;
+}
 .div-sp{
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -178,4 +182,10 @@
   font-family: "MyriadBold";
   font-size: 24px;
   padding:2%;
+}
+
+@media (max-width:970px) {
+  #top-tittle{
+    font-size: 35px;
+  }
 }
