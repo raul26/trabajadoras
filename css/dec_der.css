@@ -5,6 +5,9 @@
 #cero .div-sp{
   margin-top: 3%;
 }
+.space{
+  display: none;
+}
 #cero #im-2{
   margin-top: 4%;
   margin-left: 10%;
@@ -44,4 +47,24 @@
 }
 #nueve #im-2{
   margin-top: -45%;
+}
+@media (max-width:844px) {
+  #nueve #im-2{
+    margin-top: 0%;
+  }
+}
+@media (max-width:768px) {
+  .separacion{
+    margin-bottom: 5%;
+  }
+}
+@media (max-width:700px) {
+  .space{
+    display: block;
+  }
+}
+@media (max-width:580px) {
+  #diez .head{
+    font-size: 40px;
+  }
 }
