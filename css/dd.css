@@ -2,11 +2,21 @@
 	display: none;
 }
 
-#top-tittle2{
-margin-top: 3%;
-  font-family: "OswaldHeavy";
-  font-size: 50px;
-  color: #663366;
+
+#top-tittle2 {
+    color: #CC6699;
+    font-family: "OswaldHeavy";
+    font-size: 50px;
+    padding: 0;
+  
+}
+
+#top-tittle3 {
+    color: #663366;
+    font-family: "OswaldHeavy";
+    font-size: 50px;
+    padding: 0;
+  
 }
 
 .space2{
@@ -40,3 +50,108 @@ margin-top: 3%;
 #im-30{
 text-align: center;
 	}   
+#req{
+	    position: absolute;
+    right: 50%;
+    top: -8%;
+    text-align: center;
+
+}
+#lugA{
+	position: absolute;
+    right: 94%;
+    top: 11%;
+    text-align: center;
+}
+#pa{
+	    position: absolute;
+    right: -4%;
+    top: 11%;
+    text-align: center;
+}
+#lugA2{
+    position: absolute;
+    right: 94%;
+    top: 1%;
+    text-align: center;
+}
+#pa2{
+    position: absolute;
+    right: -4%;
+    top: 5%;
+    text-align: center;
+
+}
+#res{
+	    position: absolute;
+    top: 81%;
+    right: 94%;
+    text-align: center;
+}
+#res2{
+	 position: absolute;
+    top: 77%;
+    right: 94%;
+    text-align: center;
+
+}
+#d_e{
+	    position: absolute;
+    top: 76%;
+    right: -4%;
+    text-align: center;
+}
+#head-m0 {
+    border-bottom: 0;
+}
+#trapezoid {
+	    border-bottom: 100px solid #663366;
+	}
+.h_s {
+  border-bottom: 100px solid #8a6f8b;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 65%;
+  color: #fff;
+}
+
+.bigText{
+	font-size: 33px;
+    font-family: "MyriadRegular";
+    color: #42203d;
+    font-weight: bold;
+}
+.bigText{
+	font-size: 27px;
+    font-family: "MyriadRegular";
+    color: #42203d;
+    font-weight: bold;
+}
+#flecha{
+	    top: 87px;
+}
+#flecha_w{
+	        right: -6%;
+}
+.sqSmall{
+	font-size: 22px;
+    font-family: "Myriad Pro Condensed";
+    background-color: #806C88;
+    
+}
+.prin_sq{
+	    top: 38px;
+
+}
+.w_sq{
+	color:white;
+	text-align: center;
+	    margin-top: 5%;
+
+}
+#d_s{
+	    margin-top: 6%;
+}
+#fuent{
+	    margin-top: 56%;
+}

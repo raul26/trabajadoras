@@ -45,6 +45,7 @@
 #siete .img-bot{
   margin-top: 8%;
 }
+
 #nueve #im-2{
   margin-top: -45%;
 }
@@ -67,4 +68,12 @@
   #diez .head{
     font-size: 40px;
   }
+
+.mostrar{
+  display: block;
+}
+.content{
+
+  display: none;
+
 }
