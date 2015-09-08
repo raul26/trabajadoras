@@ -10,6 +10,10 @@
   font-family: "OswaldHeavy";
   src: url("fonts/Oswald-Heavy.woff") format("woff");
 }
+@font-face{
+  font-family: "OswaldLight";
+  src: url("fonts/oswald.light.woff") format("woff");
+}
 .ptext{
   font-size: 24px;
   font-family: "MyriadRegular";
@@ -50,6 +54,9 @@
 #int-mt{
   margin-top: 10%;
   margin-left: 10%;
+  font-family: "OswaldLight";
+  font-size: 30px;
+  color: #fff;
 }
 .logos{
   padding-left: 0px;
