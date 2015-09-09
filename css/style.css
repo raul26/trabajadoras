@@ -68,8 +68,6 @@
   height: 200px;
   background-color: #42203d;
   overflow: hidden;
-  /*margin-left: 96%;*/
-  /*margin-top: 30%;*/
   right: 0%;
   top:55%;
   z-index: 10;
@@ -97,6 +95,7 @@
   color: #fff;
   font-size: 25px;
   text-align: center;
+  font-family: "OswaldHeavy";
 }
 .ln{
   border-bottom: 2px solid #6b3a5a;
@@ -114,8 +113,6 @@
   position: absolute;
   display: none;
   background-color: #8a6f8b;
-  /*margin-top: 30%;*/
-  /*margin-left: 78%;*/
   top: 55%;
   right: 50px;
   height: 200px;
@@ -129,12 +126,14 @@
 }
 #sub-menu ul li{
   text-decoration:none;
-  padding-top: 14px;
+  font-family: "OswaldHeavy";
+  padding-top: 12px;
   padding-right: 15px;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   padding-left: 15px;
   display:block;
   color:#fff;
+  font-size: 17px;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
@@ -171,7 +170,7 @@
   font-family: "OswaldHeavy";
   font-size: 50px;
 }
-.space{
+.espacio{
   margin-top: 15%;
 }
 .mar-left{

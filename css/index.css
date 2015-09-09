@@ -1,0 +1,21 @@
+#int-mt{
+  margin-bottom: 8%;
+}
+@media (max-width:1245px) {
+  #header{
+    font-size: 40px;
+  }
+}
+@media (max-width:835px) {
+  #header{
+    width: 90%;
+  }
+}
+@media (max-width:565px) {
+  #header{
+    font-size: 30px;
+  }
+  #int-mt{
+    font-size: 23px;
+  }
+}
