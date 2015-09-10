@@ -155,3 +155,45 @@ text-align: center;
 #fuent{
 	    margin-top: 56%;
 }
+
+@media (max-width:992px) {
+    .abajo{
+     margin-bottom: 42px;
+    right: -10%;
+}
+}
+
+@media (max-width:767px) {
+    .abajo2{
+     margin-bottom: 42px;
+    right: -21%;
+}
+#fuent{
+        margin-top: 21%;
+}
+}
+
+
+
+@media (max-width:1150px) {
+   #top-tittle {
+    padding-top: 3%;
+    font-size: 37px;
+
+}
+}
+@media (max-width:867px) {
+   #top-tittle {
+    font-size: 32px;
+
+}
+}
+@media (max-width:457px) {
+   #top-tittle {
+    font-size: 26px;
+
+}
+
+}
+
+   
