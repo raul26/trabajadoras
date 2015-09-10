@@ -27,14 +27,14 @@
 }
 #header{
   background-color: #8a6f8b;
-  font-size: 60px;
+  font-size: 50px;
   z-index: 10;
   -webkit-transform: rotateZ(-5.5deg);
   -moz-transform: rotateZ(-5.5deg);
   -o-transform: rotateZ(-5.5deg);
   width: 60%;
   margin-left: 5%;
-  margin-top: -12%;
+  margin-top: -22%;
   color: #fff;
   font-family: "OswaldHeavy";
 }
