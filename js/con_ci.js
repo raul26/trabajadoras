@@ -8,17 +8,16 @@ $(document).ready(function(){
   })
   var slideNumber=0;
 
-  $(".content").hide();
+  $(".oculto").hide();
   $("#cero").show();
   $( "#next" ).click(function(){
   slideNumber=slideNumber+1;
 
-    doHideShow(slideNumber);
+  doHideShow(slideNumber);
 
     if(slideNumber==3){
    var url      = window.location.href;
-       var pageFinal= url.replace("hablemos_seguridad.html", "index.html");
-
+   var pageFinal= url.replace("conoce_cifras.html", "index.html");
    window.location.replace(pageFinal);
    slideNumber=0;
    console.log(slideNumber);
@@ -35,7 +34,7 @@ $(document).ready(function(){
 
   if(slideNumber<0){
    var url      = window.location.href;
-   var pageFinal= url.replace("decalogo_derechos.html", "index.html");
+   var pageFinal= url.replace("conoce_cifras.html", "hablemos_seguridad.html");
    window.location.replace(pageFinal);
    slideNumber=0;
    console.log(slideNumber);
@@ -49,7 +48,7 @@ $(document).ready(function(){
 
 function doHideShow (slideNumber) {
    var convertidoLetra = returnLetra(slideNumber);
-  $(".content").hide();
+  $(".oculto").hide();
   console.log(convertidoLetra);
   $('#'+convertidoLetra).show();
 
