@@ -53,10 +53,28 @@ text-align: center;
 #req{
 	    position: absolute;
     right: 50%;
-    top: -8%;
+    top: -7%;
     text-align: center;
 
 }
+.gris{
+      
+      background-color: #999999;
+    color: white;
+}
+#d_e2 {
+    position: absolute;
+    top: 77%;
+    right: -4%;
+    text-align: center;
+}
+#cost1 {
+    position: absolute;
+    right: 50%;
+    top: 92%;
+    text-align: center;
+}
+
 #lugA{
 	position: absolute;
     right: 94%;
@@ -84,7 +102,8 @@ text-align: center;
 }
 #res{
 	    position: absolute;
-    top: 81%;
+        top: 69%;
+
     right: 94%;
     text-align: center;
 }
@@ -97,7 +116,7 @@ text-align: center;
 }
 #d_e{
 	    position: absolute;
-    top: 76%;
+        top: 65%;
     right: -4%;
     text-align: center;
 }
@@ -160,6 +179,12 @@ text-align: center;
     .abajo{
      margin-bottom: 42px;
     right: -10%;
+}
+    #flecha{
+      display: none;
+    }
+    #flecha_w {
+    right: 2%;
 }
 }
 
