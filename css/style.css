@@ -14,6 +14,10 @@
   font-family: "OswaldLight";
   src: url("fonts/oswald.light.woff") format("woff");
 }
+.close{
+  color: #fff !important;
+  opacity: 1 !important;
+}
 .ptext{
   font-size: 24px;
   font-family: "MyriadRegular";
@@ -64,6 +68,11 @@
 }
 #home img{
   width: 50px;
+  position: absolute;
+  right: 0%;
+  /*top:48.8%;*/
+  top: 48.3%;
+  border-bottom: 1px solid #fff;
 }
 #menu{
   position: absolute;
