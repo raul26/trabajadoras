@@ -18,6 +18,10 @@
   color: #fff !important;
   opacity: 1 !important;
 }
+#white{
+  color: #000 !important;
+  opacity: 1 !important;
+}
 .ptext{
   font-size: 24px;
   font-family: "MyriadRegular";
